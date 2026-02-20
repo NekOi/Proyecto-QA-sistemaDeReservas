@@ -1,0 +1,66 @@
+# Historias de Usuario – Sistema de Reservas Online
+
+## Historia 1: Inicio de sesión
+**Como** usuario registrado  
+**Quiero** iniciar sesión en mi perfil  
+**Para** revisar mis datos personales
+
+**Criterios de aceptación**
+- El usuario puede ingresar correo y contraseña válidos  
+- El sistema autentica correctamente las credenciales  
+- El usuario es redirigido a su página principal de perfil  
+- Si las credenciales son incorrectas, el sistema muestra mensaje de error  
+- La sesión del usuario permanece activa tras login exitoso  
+- El sistema permite máximo 5 intentos fallidos consecutivos
+
+---
+
+## Historia 2: Registro de usuario
+**Como** nuevo usuario  
+**Quiero** registrarme en la aplicación  
+**Para** poder realizar reservas y gestionar mi cuenta
+
+**Criterios de aceptación**
+- El formulario de registro solicita nombre, correo y contraseña  
+- El sistema valida los datos correctamente antes de crear la cuenta  
+- El usuario recibe confirmación de registro exitoso  
+- El sistema evita registros duplicados con el mismo correo
+
+---
+
+## Historia 3: Recuperar contraseña
+**Como** usuario registrado  
+**Quiero** recuperar mi contraseña mediante correo electrónico  
+**Para** poder acceder a mi cuenta si la olvido
+
+**Criterios de aceptación**
+- El sistema envía un correo con enlace de recuperación  
+- El enlace permite cambiar la contraseña durante su periodo de validez  
+- El usuario recibe confirmación de que la contraseña fue cambiada correctamente  
+- Si el enlace expira, el sistema muestra un mensaje claro al usuario
+
+---
+
+## Historia 4: Visualización de historial de reservas
+**Como** usuario registrado  
+**Quiero** acceder a una sección donde pueda ver todas mis reservas realizadas  
+**Para** llevar un control y repetir reservas si lo necesito
+
+**Criterios de aceptación**
+- El usuario autenticado puede acceder a la sección “Historial de reservas”  
+- El sistema muestra todas las reservas del usuario, con fecha, hora y estado  
+- Las reservas se muestran ordenadas por fecha (más reciente primero)  
+- Si no hay reservas, se muestra un mensaje informativo (“No tienes reservas registradas”)
+
+---
+
+## Historia 5: Confirmación de reserva
+**Como** usuario registrado  
+**Quiero** recibir confirmación por correo después de hacer una reserva  
+**Para** asegurar que mi reserva se registró correctamente
+
+**Criterios de aceptación**
+- El sistema envía automáticamente un correo con los detalles de la reserva  
+- El correo incluye fecha, hora y ubicación de la reserva  
+- Si el envío de correo falla, se genera un mensaje de error para el usuario  
+- El usuario puede volver a solicitar reenvío del correo de confirmación

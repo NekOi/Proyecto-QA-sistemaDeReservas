@@ -1,0 +1,74 @@
+# Bugs Reportados – Sistema de Reservas Online
+
+## Bug 1: El historial de reservas no muestra reservas existentes
+
+**Precondición:**  
+- Tener al menos una reserva confirmada  
+
+**Pasos para reproducir:**  
+1. Iniciar sesión  
+2. Tener al menos una reserva confirmada  
+3. Ir a “Mi historial de reservas”  
+
+**Resultado esperado:**  
+- Se muestran todas las reservas realizadas por el usuario, con fecha, hora y estado  
+
+**Resultado actual:**  
+- La lista aparece vacía aunque existen reservas registradas  
+
+**Prioridad:** Alta  
+**Entorno:** Chrome  
+**Sistema operativo:** Windows 10  
+**Versión del sistema:** v1.0  
+**Notas:** El bug se registró al primer intento  
+
+---
+
+## Bug 2: No se envía correo de confirmación después de completar una reserva
+
+**Precondición:**  
+- Usuario registrado e iniciado sesión en el sistema  
+
+**Pasos para reproducir:**  
+1. Iniciar sesión en la aplicación  
+2. Buscar disponibilidad de reserva  
+3. Seleccionar fecha y hora disponibles  
+4. Confirmar la reserva  
+5. Revisar bandeja de entrada del correo registrado  
+
+**Resultado esperado:**  
+- La reserva se completa correctamente en el sistema  
+- Se recibe un correo de confirmación con los detalles de la reserva  
+
+**Resultado actual:**  
+- No se recibe ningún correo de confirmación  
+
+**Frecuencia:** 5 de 5 intentos  
+**Prioridad:** Alta  
+**Entorno:** Chrome  
+**Sistema operativo:** Windows 10  
+**Versión del sistema:** v1.0  
+
+---
+
+## Bug 3: El enlace de recuperación de contraseña ha expirado inmediatamente
+
+**Precondición:**  
+- Usuario registrado  
+
+**Pasos para reproducir:**  
+1. Ir a “Olvidé mi contraseña”  
+2. Ingresar correo registrado  
+3. Abrir el enlace enviado al correo  
+4. Intentar cambiar la contraseña  
+
+**Resultado esperado:**  
+- El enlace permite cambiar la contraseña durante su periodo de validez  
+
+**Resultado actual:**  
+- El sistema indica que el enlace expiró inmediatamente después de abrirlo  
+
+**Prioridad:** Alta  
+**Entorno:** Chrome  
+**Sistema operativo:** Windows 10  
+**Versión del sistema:** v1.0  
