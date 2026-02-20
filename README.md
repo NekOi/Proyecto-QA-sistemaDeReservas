@@ -8,18 +8,17 @@ El objetivo del proyecto es practicar la creación y gestión de historias de us
 - QA Junior  
 - Creación de historias de usuario y definición de criterios de aceptación  
 - Reporte, seguimiento y cierre de bugs  
-- Ejecución de pruebas funcionales manuales  
+- Simulación de testing funcional sobre los flujos de usuario  
 - Simulación de sprint planning, ejecución de sprint y sprint review
 
 ## Herramientas y metodología
 - Jira para gestión de historias y bugs  
 - Metodología ágil Scrum  
-- Pruebas funcionales manuales  
+- Simulación de testing funcional 
 
 ## Contenido del repositorio
 - `Historias-de-usuario.md` → Listado de todas las historias de usuario con criterios de aceptación  
-- `Bugs-reportados.md` → Registro de los bugs detectados durante la simulación de pruebas  
-- `Evidencia-simulacion.pdf` (opcional) → Capturas de Jira mostrando las historias y bugs cerrados  
+- `Bugs-reportados.md` → Registro de los bugs detectados durante la simulación de pruebas    
 
 ## Resultados
 - Simulación de 2 sprints completos  
